@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0AFA531EC6FFE1007409DE /* CreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0AFA511EC6FFE1007409DE /* CreateVC.m */; };
+		AA0AFA541EC6FFE1007409DE /* CreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0AFA521EC6FFE1007409DE /* CreateVC.xib */; };
+		AA0AFA581EC6FFF1007409DE /* JoinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0AFA561EC6FFF1007409DE /* JoinVC.m */; };
+		AA0AFA591EC6FFF1007409DE /* JoinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0AFA571EC6FFF1007409DE /* JoinVC.xib */; };
+		AA2554131EC5489000F32F3A /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2554121EC5489000F32F3A /* MultipeerConnectivity.framework */; };
+		AA25541C1EC55B3B00F32F3A /* SendDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA25541B1EC55B3B00F32F3A /* SendDataView.m */; };
+		AA2554201EC55B4B00F32F3A /* SendDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA25541F1EC55B4B00F32F3A /* SendDataView.xib */; };
+		AA2554221EC5635100F32F3A /* 陶喆-寂寞的季节.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AA2554211EC5635100F32F3A /* 陶喆-寂寞的季节.mp4 */; };
+		AA2554241EC5636A00F32F3A /* iOS技能树.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA2554231EC5636A00F32F3A /* iOS技能树.jpg */; };
 		AA9067841EC45F67000DA258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9067831EC45F67000DA258 /* main.m */; };
 		AA9067871EC45F67000DA258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9067861EC45F67000DA258 /* AppDelegate.m */; };
 		AA90678A1EC45F67000DA258 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9067891EC45F67000DA258 /* ViewController.m */; };
@@ -15,6 +24,7 @@
 		AA9067921EC45F67000DA258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9067901EC45F67000DA258 /* LaunchScreen.storyboard */; };
 		AA90679D1EC45F67000DA258 /* MC_Demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA90679C1EC45F67000DA258 /* MC_Demo2Tests.m */; };
 		AA9067A81EC45F67000DA258 /* MC_Demo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9067A71EC45F67000DA258 /* MC_Demo2UITests.m */; };
+		AAF1B34B1EC69AEF0035C5FB /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF1B34A1EC69AEF0035C5FB /* MCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA0AFA501EC6FFE1007409DE /* CreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateVC.h; sourceTree = "<group>"; };
+		AA0AFA511EC6FFE1007409DE /* CreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateVC.m; sourceTree = "<group>"; };
+		AA0AFA521EC6FFE1007409DE /* CreateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateVC.xib; sourceTree = "<group>"; };
+		AA0AFA551EC6FFF1007409DE /* JoinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoinVC.h; sourceTree = "<group>"; };
+		AA0AFA561EC6FFF1007409DE /* JoinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoinVC.m; sourceTree = "<group>"; };
+		AA0AFA571EC6FFF1007409DE /* JoinVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinVC.xib; sourceTree = "<group>"; };
+		AA2554121EC5489000F32F3A /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		AA25541A1EC55B3B00F32F3A /* SendDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendDataView.h; sourceTree = "<group>"; };
+		AA25541B1EC55B3B00F32F3A /* SendDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendDataView.m; sourceTree = "<group>"; };
+		AA25541F1EC55B4B00F32F3A /* SendDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SendDataView.xib; path = ../SendDataView.xib; sourceTree = "<group>"; };
+		AA2554211EC5635100F32F3A /* 陶喆-寂寞的季节.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "陶喆-寂寞的季节.mp4"; sourceTree = "<group>"; };
+		AA2554231EC5636A00F32F3A /* iOS技能树.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iOS技能树.jpg"; sourceTree = "<group>"; };
 		AA90677F1EC45F67000DA258 /* MC_Demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MC_Demo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9067831EC45F67000DA258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA9067851EC45F67000DA258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,8 @@
 		AA9067A31EC45F67000DA258 /* MC_Demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MC_Demo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9067A71EC45F67000DA258 /* MC_Demo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MC_Demo2UITests.m; sourceTree = "<group>"; };
 		AA9067A91EC45F67000DA258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAF1B3491EC69AEF0035C5FB /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		AAF1B34A1EC69AEF0035C5FB /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2554131EC5489000F32F3A /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2554111EC5489000F32F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2554121EC5489000F32F3A /* MultipeerConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AA9067761EC45F67000DA258 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,7 @@
 				AA90679B1EC45F67000DA258 /* MC_Demo2Tests */,
 				AA9067A61EC45F67000DA258 /* MC_Demo2UITests */,
 				AA9067801EC45F67000DA258 /* Products */,
+				AA2554111EC5489000F32F3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +139,19 @@
 				AA9067861EC45F67000DA258 /* AppDelegate.m */,
 				AA9067881EC45F67000DA258 /* ViewController.h */,
 				AA9067891EC45F67000DA258 /* ViewController.m */,
+				AA2554211EC5635100F32F3A /* 陶喆-寂寞的季节.mp4 */,
+				AA2554231EC5636A00F32F3A /* iOS技能树.jpg */,
+				AAF1B3491EC69AEF0035C5FB /* MCManager.h */,
+				AAF1B34A1EC69AEF0035C5FB /* MCManager.m */,
+				AA0AFA501EC6FFE1007409DE /* CreateVC.h */,
+				AA0AFA511EC6FFE1007409DE /* CreateVC.m */,
+				AA0AFA521EC6FFE1007409DE /* CreateVC.xib */,
+				AA0AFA551EC6FFF1007409DE /* JoinVC.h */,
+				AA0AFA561EC6FFF1007409DE /* JoinVC.m */,
+				AA0AFA571EC6FFF1007409DE /* JoinVC.xib */,
+				AA25541A1EC55B3B00F32F3A /* SendDataView.h */,
+				AA25541B1EC55B3B00F32F3A /* SendDataView.m */,
+				AA25541F1EC55B4B00F32F3A /* SendDataView.xib */,
 				AA90678B1EC45F67000DA258 /* Main.storyboard */,
 				AA90678E1EC45F67000DA258 /* Assets.xcassets */,
 				AA9067901EC45F67000DA258 /* LaunchScreen.storyboard */,
@@ -207,6 +254,7 @@
 				TargetAttributes = {
 					AA90677E1EC45F67000DA258 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M3YN599LE4;
 						ProvisioningStyle = Automatic;
 					};
 					AA9067971EC45F67000DA258 = {
@@ -247,8 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA9067921EC45F67000DA258 /* LaunchScreen.storyboard in Resources */,
+				AA2554221EC5635100F32F3A /* 陶喆-寂寞的季节.mp4 in Resources */,
+				AA2554241EC5636A00F32F3A /* iOS技能树.jpg in Resources */,
 				AA90678F1EC45F67000DA258 /* Assets.xcassets in Resources */,
+				AA0AFA591EC6FFF1007409DE /* JoinVC.xib in Resources */,
+				AA2554201EC55B4B00F32F3A /* SendDataView.xib in Resources */,
 				AA90678D1EC45F67000DA258 /* Main.storyboard in Resources */,
+				AA0AFA541EC6FFE1007409DE /* CreateVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0AFA581EC6FFF1007409DE /* JoinVC.m in Sources */,
 				AA90678A1EC45F67000DA258 /* ViewController.m in Sources */,
+				AA25541C1EC55B3B00F32F3A /* SendDataView.m in Sources */,
 				AA9067871EC45F67000DA258 /* AppDelegate.m in Sources */,
+				AAF1B34B1EC69AEF0035C5FB /* MCManager.m in Sources */,
+				AA0AFA531EC6FFE1007409DE /* CreateVC.m in Sources */,
 				AA9067841EC45F67000DA258 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +483,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3YN599LE4;
 				INFOPLIST_FILE = MC_Demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jfb.MC-Demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +496,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3YN599LE4;
 				INFOPLIST_FILE = MC_Demo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jfb.MC-Demo2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +570,7 @@
 				AA9067AE1EC45F67000DA258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9067AF1EC45F67000DA258 /* Build configuration list for PBXNativeTarget "MC_Demo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +579,7 @@
 				AA9067B11EC45F67000DA258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9067B21EC45F67000DA258 /* Build configuration list for PBXNativeTarget "MC_Demo2UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +588,7 @@
 				AA9067B41EC45F67000DA258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bLR-ny-Nnh" customClass="SendDataView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m7M-SE-Wyc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <color key="backgroundColor" red="0.20808093220000001" green="0.70550430159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="GiH-zz-oMT"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="log..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Qh-l9-NiS">
+                    <rect key="frame" x="10" y="74" width="355" height="150"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="Xf6-dT-gRU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="send data" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iP2-rn-aNL">
+                    <rect key="frame" x="10" y="234" width="275" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="U7p-WX-oLy"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnM-Di-TOy">
+                    <rect key="frame" x="305" y="234" width="50" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="2mf-qf-xrP"/>
+                        <constraint firstAttribute="height" constant="30" id="52y-h2-y7K"/>
+                    </constraints>
+                    <state key="normal" title="send"/>
+                    <connections>
+                        <action selector="sendDataAction:" destination="bLR-ny-Nnh" eventType="touchUpInside" id="aK5-bS-hQh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2n-wz-YfO">
+                    <rect key="frame" x="20" y="284" width="335" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="B7a-4j-gD3"/>
+                    </constraints>
+                    <state key="normal" title="发送resource文件"/>
+                    <connections>
+                        <action selector="sendResourceAction:" destination="bLR-ny-Nnh" eventType="touchUpInside" id="Ksd-IZ-3J7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6O6-cN-JRB">
+                    <rect key="frame" x="20" y="334" width="335" height="30"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="vlR-gF-TuP"/>
+                        <constraint firstAttribute="height" constant="30" id="wOh-wq-sXI"/>
+                    </constraints>
+                    <state key="normal" title="发送stream数据"/>
+                    <connections>
+                        <action selector="sendStreamAction:" destination="bLR-ny-Nnh" eventType="touchUpInside" id="5T2-D2-sfq"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fhR-Lf-cAS">
+                    <rect key="frame" x="18" y="384" width="339" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="xBG-TU-96d"/>
+                    </constraints>
+                    <connections>
+                        <action selector="sliderValueChange:" destination="bLR-ny-Nnh" eventType="valueChanged" id="ej1-hw-pfb"/>
+                    </connections>
+                </slider>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sdb-BV-A4K">
+                    <rect key="frame" x="20" y="434" width="335" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="cwP-iD-jdm"/>
+                    </constraints>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rnM-Di-TOy" firstAttribute="centerY" secondItem="iP2-rn-aNL" secondAttribute="centerY" id="1yM-AI-bUf"/>
+                <constraint firstItem="1Qh-l9-NiS" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" constant="10" id="79s-PV-gHJ"/>
+                <constraint firstItem="iP2-rn-aNL" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" constant="10" id="8Jl-QB-4KN"/>
+                <constraint firstItem="iP2-rn-aNL" firstAttribute="top" secondItem="1Qh-l9-NiS" secondAttribute="bottom" constant="10" id="8cD-7a-28L"/>
+                <constraint firstItem="6O6-cN-JRB" firstAttribute="top" secondItem="q2n-wz-YfO" secondAttribute="bottom" constant="20" id="GfR-BP-cwg"/>
+                <constraint firstItem="sdb-BV-A4K" firstAttribute="top" secondItem="fhR-Lf-cAS" secondAttribute="bottom" constant="20" id="IDL-61-HGS"/>
+                <constraint firstAttribute="trailing" secondItem="6O6-cN-JRB" secondAttribute="trailing" constant="20" id="ML4-G7-R31"/>
+                <constraint firstAttribute="trailing" secondItem="q2n-wz-YfO" secondAttribute="trailing" constant="20" id="MpU-bb-njc"/>
+                <constraint firstItem="fhR-Lf-cAS" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" constant="20" id="P1z-f7-M9e"/>
+                <constraint firstAttribute="trailing" secondItem="m7M-SE-Wyc" secondAttribute="trailing" id="Rxe-XA-aGe"/>
+                <constraint firstAttribute="trailing" secondItem="fhR-Lf-cAS" secondAttribute="trailing" constant="20" id="dye-IO-1Vt"/>
+                <constraint firstItem="1Qh-l9-NiS" firstAttribute="top" secondItem="m7M-SE-Wyc" secondAttribute="bottom" constant="10" id="ep3-YA-trC"/>
+                <constraint firstItem="q2n-wz-YfO" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" constant="20" id="g6B-8l-70d"/>
+                <constraint firstItem="m7M-SE-Wyc" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" id="hAA-k1-odY"/>
+                <constraint firstAttribute="trailing" secondItem="sdb-BV-A4K" secondAttribute="trailing" constant="20" id="hbv-xN-WZI"/>
+                <constraint firstItem="fhR-Lf-cAS" firstAttribute="top" secondItem="6O6-cN-JRB" secondAttribute="bottom" constant="20" id="kde-75-Rlx"/>
+                <constraint firstAttribute="trailing" secondItem="rnM-Di-TOy" secondAttribute="trailing" constant="20" id="lVw-X7-wgG"/>
+                <constraint firstItem="sdb-BV-A4K" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" constant="20" id="mpz-yo-3pB"/>
+                <constraint firstItem="m7M-SE-Wyc" firstAttribute="top" secondItem="bLR-ny-Nnh" secondAttribute="top" id="oMC-vB-StJ"/>
+                <constraint firstItem="rnM-Di-TOy" firstAttribute="leading" secondItem="iP2-rn-aNL" secondAttribute="trailing" constant="20" id="p1t-fC-4L7"/>
+                <constraint firstAttribute="trailing" secondItem="1Qh-l9-NiS" secondAttribute="trailing" constant="10" id="rNC-nB-Ovl"/>
+                <constraint firstItem="6O6-cN-JRB" firstAttribute="leading" secondItem="bLR-ny-Nnh" secondAttribute="leading" constant="20" id="uTL-H7-ov6"/>
+                <constraint firstItem="q2n-wz-YfO" firstAttribute="top" secondItem="iP2-rn-aNL" secondAttribute="bottom" constant="20" id="xs4-9o-eXe"/>
+            </constraints>
+            <connections>
+                <outlet property="logTextView" destination="1Qh-l9-NiS" id="qWg-V2-61a"/>
+                <outlet property="progressView" destination="sdb-BV-A4K" id="A40-we-NOC"/>
+                <outlet property="sendDataBtn" destination="rnM-Di-TOy" id="fnJ-nw-N1I"/>
+                <outlet property="sendResourceBtn" destination="q2n-wz-YfO" id="APT-LY-JAt"/>
+                <outlet property="sendStream" destination="6O6-cN-JRB" id="0iX-cY-dyG"/>
+                <outlet property="slider" destination="fhR-Lf-cAS" id="LLQ-9d-l5g"/>
+                <outlet property="textField" destination="iP2-rn-aNL" id="6Y3-bh-hTR"/>
+            </connections>
+        </view>
+    </objects>
+</document>
